@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Drive</title>
+</head>
+<body>
+	<section onmousemove="clicked(event)" style="border:solid thin black; padding:10px">
+		section
+		<form onsubmit="event.preventDefault()" style="border:solid thin black; padding:10px">
+			form
+			<div style="border:solid thin black; padding:10px">
+				div
+				<button>click me</button>
+			</div>
+		</form>
+	</section>
+		
+	
+</body>
+</html>
+
+<script>
+
+	function clicked(e){
+		console.log(e.target.tagName);
+		// alert('you clicked me')
+	}
+</script>
